@@ -17,5 +17,17 @@ $(document).ready(
         $(this).children('.dropdown').removeClass('open');
       }
     )
+    $('.it-arrow').mouseenter(
+      function() {
+        $(this).find('.fa').removeClass('fa-chevron-up');
+        $(this).find('.fa').addClass('fa-chevron-down');
+      }
+    )
+    $('.it-arrow').mouseleave(
+      function() {
+        $(this).find('.fa').removeClass('fa-chevron-down');
+        $(this).find('.fa').addClass('fa-chevron-up');
+      }
+    )
   }
 );
