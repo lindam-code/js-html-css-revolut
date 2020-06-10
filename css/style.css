@@ -81,4 +81,19 @@ a:hover {
 .dropdown.open {
   display: block;
 }
+.dropdown li:hover {
+  background-color: gainsboro;
+  color: black;
+}
+.dropdown a {
+  position: relative;
+}
+.dropdown .news {
+  font-size: 12px;
+  font-weight: bold;
+  color: fuchsia;
+  position: absolute;
+  top: -20px;
+  right: -40px;
+}
 /* FINE STILI DROPDOWN */
