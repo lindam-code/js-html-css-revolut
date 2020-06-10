@@ -1,0 +1,48 @@
+/* RESET */
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+/* FINE RESET */
+
+/* STILI GENERALI */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+header {
+  height: 140px;
+  color: #8C8D8F
+}
+a {
+  text-decoration: none;
+  color: #8C8D8F
+}
+.wrapper {
+  width: 70%;
+  margin: auto;
+  height: 100%;
+  line-height: 140px;
+}
+.menu {
+  display: flex;
+}
+.menu li {
+  list-style-type: none;
+}
+.menu li img {
+  width: 100px;
+}
+.float-left {
+  float: left;
+}
+.menu.float-left li {
+  margin-right: 20px;
+}
+.float-right {
+  float: right;
+}
+.menu.float-right li {
+  margin-left: 20px;
+}
+/* FINE STILI GENERALI */
