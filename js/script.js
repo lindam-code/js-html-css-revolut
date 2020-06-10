@@ -4,21 +4,18 @@ $(document).ready(
 
     $('.with-dropdown').mouseenter(
       function() {
-        $('.with-dropdown').children('.dropdown').addClass('open');
+        $(this).children('.dropdown').addClass('open');
       }
     )
     $('.with-dropdown').mouseleave(
       function() {
-        $('.with-dropdown').children('.dropdown').removeClass('open');
+        $(this).children('.dropdown').removeClass('open');
       }
     )
     $('.with-dropdown').click(
       function() {
-        $('.with-dropdown').children('.dropdown').removeClass('open');
+        $(this).children('.dropdown').removeClass('open');
       }
     )
-
-
-
   }
 );
