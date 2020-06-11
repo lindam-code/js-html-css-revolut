@@ -10,19 +10,32 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
-header {
-  height: 80px;
-  color: #8C8D8F
-}
-a {
-  text-decoration: none;
-  color: #8C8D8F
+img {
+  width: 100%;
 }
 .wrapper {
   width: 70%;
   margin: auto;
   height: 100%;
-  line-height: 80px;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+/* FINE STILI GENERALI */
+
+/* INIZIO MENU */
+header {
+  height: 50px;
+  color: #8C8D8F;
+  line-height: 50px;
+  margin: 40px 0;
+}
+.menu a {
+  text-decoration: none;
+  color: #8C8D8F
 }
 .menu {
   display: flex;
@@ -32,44 +45,39 @@ a {
   position: relative;
 }
 .menu li img {
-  width: 100px;
+  vertical-align: middle;
 }
-.float-left {
-  float: left;
+.menu .logo {
+  width: 100px;
 }
 .menu.float-left li {
   margin-right: 20px;
 }
-.float-right {
-  float: right;
-}
 .menu.float-right li {
   margin-left: 40px;
 }
-a:hover {
+.menu a:hover {
   color: black;
 }
-.black-text a {
+.menu .black-text a {
   color: black;
 }
-.app {
+.menu .app {
   padding: 5px 10px;
   background-color: fuchsia;
   border-radius: 25px;
   color: white;
 }
-.app a {
+.menu .app a {
   color: white;
 }
-/* FINE STILI GENERALI */
-
 
 /* STILI DROPDOWN */
 .dropdown {
   box-shadow:0px 0px 25px #807A7B;
   line-height: 40px;
   position: absolute;
-  top: 80px;
+  top: 100%;
   left: -26px;
   padding: 10px;
   white-space: nowrap;
@@ -97,3 +105,4 @@ a:hover {
   right: -40px;
 }
 /* FINE STILI DROPDOWN */
+/* FINE MENU */
